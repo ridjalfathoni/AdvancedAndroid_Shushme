@@ -1,4 +1,4 @@
-package com.example.android.shushme;
+package com.example.android.shushme.provider;
 
 /*
 * Copyright (C) 2017 The Android Open Source Project
@@ -23,6 +23,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.android.shushme.R;
 import com.google.android.gms.location.places.PlaceBuffer;
 
 public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.PlaceViewHolder> {
